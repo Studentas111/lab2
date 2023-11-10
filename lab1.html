@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .vertical-stack {
+  display: flex;
+  flex-direction: column; 
+  background: transparent;
+ 
+}
+.vertical-stack * {
+  margin-bottom: 10px; 
+}
+    
+    
+    .aligncenter{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      text-align: center;
+      padding-top: 10px;
+
+    }
+    .alignfromleft{
+padding-left: 420px;
+
+    }
+    .alignfromleft2{
+      padding-left: 420px;
+      margin-top: -200;
+
+    }
+
+    .horizontal-stack {
+  display: flex;
+  flex-direction: row; 
+  background: transparent;
+ 
+}
+.horizontal-stack * {
+  margin-left: 200px; 
+}
+.numbers{
+  display: flex;
+background: transparent;
+flex-direction: row;
+margin-left: 280px;
+margin-top:0px;
+
+
+}
+.numbers  * {
+  padding-left: 10px; 
+}
+
+
+.percentage-scale {
+      width: 20%;
+      height: 30px;
+      background-color: #ad9595;
+      position: relative;
+    }
+
+    .percentage-bar {
+      height: 100%;
+      background-color: #4CAF50;
+      position: absolute;
+    }
+
+    .percentage-label {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+    .up{
+
+      margin-bottom: -125px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <!-- Pridedam snippet-example-1.html sukurta snippet'a -->
+  <object data="snippet.html"></object><br>
+
+    <object data="paplidsnip.html"></object><br>
+    <h1>About</h1>
+    <p>"We cannot solve our problems with the same thinking we used when we created them."</p>
+    <div class="vertical-stack">
+    
+      
+      <img src="about.jpg" width="400" height="300" alt="Description">
+     <div class="aligncenter" style="margin-top: -350px;margin-left: -220px;">
+      <h1 >Vilnius Tech student</h1>
+    </div>
+      <p style="margin-top: 0px;margin-left: 420px;">"Anyone who has never made a mistake has never tried anything new."</p>
+    
+      <div class="alignfromleft" style="margin-top:0px;margin-left: 0px;">
+      <p > <span style="color: black; font-weight: bold;">Birthdate:</span> 2022-09-01</p>
+      <p > <span style="color: black; font-weight: bold;">Age:</span> 1</p>
+      <p > <span style="color: black; font-weight: bold;">Website:</span> <a href="https://vilniustech.lt/">Vilnius tech</a></p>
+      <p > <span style="color: black; font-weight: bold;">Degree:</span> primary</p>
+      </div>
+      <div class="alignfromleft2" style="margin-top:-160px;margin-left: 300px;">
+      <p > <span style="color: black; font-weight: bold;">Phone:</span> +3706555555</p>
+      <p > <span style="color: black; font-weight: bold;">Email:</span> email.example@gmail.com</p>
+      <p> <span style="color: black; font-weight: bold;">City:</span> Vilnius</p>
+      <p > <span style="color: black; font-weight: bold;">Freelance:</span> No</p>
+      </div>
+      <p style="margin-left: 420px;">  "To be, or not to be, that is the question." - William Shakespeare, from "Hamlet"</p>
+      
+  </div><br>
+  <h1>Facts</h1>
+  <p>"You miss 100% of the shots you don't take." - Wayne Gretzky</p>
+  
+  <div class="horizontal-stack">
+    
+    <img  src="smile.png" width="50" height="50" alt="Description">232
+
+
+
+
+  
+  <img  src="notebook.jpg" width="50" height="50" alt="Description1">232
+
+  <img  src="headphones.jpg" width="50" height="50" alt="Description2">32
+  <img  src="human.jpg" width="50" height="50" alt="Description3">23
+  </div>
+  <h1>Skills</h1>
+<div class="vertical-stack">
+  <div class="percentage-scale">
+    <div class="percentage-bar" style="width: 70%;"></div>
+    <div class="percentage-label">70%</div>
+  </div>
+  <div class="percentage-scale">
+    <div class="percentage-bar" style="width: 50%;"></div>
+    <div class="percentage-label">50%</div>
+  </div>
+  <div class="percentage-scale">
+    <div class="percentage-bar" style="width: 60%;"></div>
+    <div class="percentage-label">60%</div>
+  </div>
+
+
+
+
+  <div class="alignfromleft">
+    <div class="up"></div>
+  <div class="vertical-stack">
+    <div class="percentage-scale">
+      <div class="percentage-bar" style="width: 20%;"></div>
+      <div class="percentage-label">20%</div>
+    </div>
+    <div class="percentage-scale">
+      <div class="percentage-bar" style="width: 20%;"></div>
+      <div class="percentage-label">20%</div>
+    </div>
+    <div class="percentage-scale">
+      <div class="percentage-bar" style="width: 20%;"></div>
+      <div class="percentage-label">20%</div>
+    </div>
+</div>  
+</div>
+</div>
+
+
+<video width="640" height="480" controls >
+  <source style="align-items: center;" src="movie.mp4" type="video/mp4">
+  
+  </video><br>
+
+
+  <iframe width="640" height="480" src="https://www.youtube.com/watch?v=79DijItQXMM"  title="Iframe Example"></iframe><br>
+
+  <audio controls>
+   
+    <source src="audio.mp3" type="audio/mpeg">
+  
+  </audio>
+</body>
+
+</html>
